@@ -1,0 +1,120 @@
+@media only screen and (max-width: 982px) {
+	.aboutus_page_section
+	{
+		height: 164vh;
+	}
+}
+@media only screen and (max-width: 840px) {
+.cont
+{
+	flex-direction: column;
+	line-height: 2;
+	transform: translateY(-54px);
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.4s ease-in-out;
+}
+.ullist
+{
+	flex-direction: column;
+	text-align: center;
+}
+.show
+{
+	transform: translateY(0);
+	opacity: 1;
+	visibility: visible;
+}
+#menu_icon
+{
+	display: block;
+}
+.about_owner
+{
+	flex-direction: column;
+	margin: 20px 0;
+}
+.about_owner .left_side
+{
+	margin: 20px 0;
+}
+.aboutus_page_section
+{
+	height: 180vh;
+}
+}
+@media only screen and (max-width: 721px) {
+	.contact_sec
+	{
+		flex-direction: column;
+	}
+	.contact_left_sec
+	{
+		width: 100%;
+	}
+	.map-frame
+	{
+		margin: auto;
+	}
+	.contact_right_sec
+	{
+		margin: 50px;
+	}
+	/* .footer
+	{
+		margin-top: 578;
+		position: relative;
+	} */
+}
+@media only screen and (max-width: 600px) {
+	.footer
+	{
+		flex-direction: column;
+		height: 647px;
+		text-align: center;
+	}
+	.social_ullist
+	{
+		text-align: left;
+	}
+}
+@media only screen and (max-width: 510px) {
+	.ca-inputboxes
+	{
+		flex-direction: column;
+		width: 80%;
+		padding: 5px;
+	}
+	.adult-cl-sel
+	{
+		width: 100%;
+		padding: 5px;
+	}
+	#ca-submit
+	{
+		width: 43%;
+	}
+}
+@media only screen and (max-width: 544px) {
+	.hero-container
+	{
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+	.aboutus_page_section
+	{
+		height: 268vh;
+	}
+}
+/* @media only screen and (max-width: 490px) {
+	.aboutus_page_section
+	{
+		height: 268vh;
+	}
+} */
+@media only screen and (max-width: 300px) {
+	.login_box
+	{
+		width: 247px;
+	}
+}
